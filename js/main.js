@@ -21,7 +21,7 @@ function createMap() {
 }
 
 // Fetch GeoJSON and create Voronoi polygons
-fetch('https://underjas.github.io/turf/data/airports.geojson')
+fetch('data/airports.geojson')
     .then(response => response.json())
     .then(data => {
         // Handle success in fetching data
